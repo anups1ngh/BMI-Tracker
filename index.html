@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Privacy Policy - BMI Tracker</title>
+  <title>Privacy Policy - FitTrack</title>
   <style>
     /* Basic styling for a clean, professional look */
     body {
@@ -43,8 +43,11 @@
       font-size: 1.2rem;
       margin-top: 1.2rem;
     }
-    p {
+    p, ul {
       margin-bottom: 1rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
     }
     .footer {
       text-align: center;
@@ -63,62 +66,71 @@
 <main>
   <h2>Introduction</h2>
   <p>
-    Thank you for choosing the BMI Tracker. This Privacy Policy describes 
+    Thank you for choosing FitTrack. This Privacy Policy describes 
     how the App collects, uses, and shares information when you use our services. By installing 
     and using the App, you agree to the terms outlined in this policy.
   </p>
 
   <h2>1. Information We Collect</h2>
-  <h3>1.1 No Personal Information Collected</h3>
+  <h3>1.1 Account Information</h3>
   <p>
-    The App does not require you to provide personal information such as name, email address, 
-    or contact details. The App calculates Body Mass Index (BMI) based on user-provided height 
-    and weight inputs, but does not store, track, or transmit these inputs to any server.
+    To use FitTrack's core features, you must create an account. We collect personal information such as your email address, password, and basic profile details (e.g., age, height, weight, and fitness goals) to personalize your experience.
   </p>
 
-  <h3>1.2 Non-Personal Usage Data</h3>
+  <h3>1.2 Health and Fitness Data</h3>
   <p>
-    The App does not use third-party analytics tools by default. If future updates introduce 
-    analytics to improve user experience, any data collected will be anonymized and used 
-    solely for performance metrics. This Privacy Policy will be updated accordingly.
+    With your explicit permission, FitTrack accesses health and physical activity data, including step counts, active minutes, and calories burned, through integration with Apple Health (HealthKit) and Google Health Connect. 
   </p>
 
-  <h2>2. How We Use Your Information</h2>
+  <h2>2. Apple HealthKit & Google Health Connect</h2>
   <p>
-    All BMI calculations occur locally on your device. The height and weight values you enter 
-    are used only to calculate the BMI at that moment. We do not share or sell your data 
-    to any third parties.
+    FitTrack respects the highly sensitive nature of your health data. When integrating with Apple HealthKit and Google Health Connect, we strictly adhere to the following principles:
   </p>
+  <ul>
+    <li>We only read or write data to these services with your explicit consent.</li>
+    <li>Data accessed from HealthKit and Health Connect is used solely to provide health, motion, and fitness-related services within the FitTrack dashboard and AI Coach features.</li>
+    <li><strong>We do not sell, rent, or share your HealthKit or Health Connect data with third-party advertisers or data brokers under any circumstances.</strong></li>
+  </ul>
 
-  <h2>3. Data Storage and Security</h2>
-  <p>
-    Because the App does not collect personal data, there is no user-specific data to protect 
-    or delete on our end. All computation and data handling occur locally within the App 
-    on your device.
-  </p>
+  <h2>3. How We Use Your Information</h2>
+  <p>We use the collected information to:</p>
+  <ul>
+    <li>Personalize your dashboard, meal plans, and fitness goals.</li>
+    <li>Power our AI Coach, which analyzes your historical data to provide dynamic, personalized health insights.</li>
+    <li>Send you push notifications (such as water reminders and goal achievements), which you can opt out of at any time in your device settings.</li>
+  </ul>
 
   <h2>4. Third-Party Services</h2>
   <p>
-    The App may contain links to external websites or services. We have no control over 
-    the content and practices of these external sites and cannot accept responsibility 
-    or liability for their privacy policies.
+    FitTrack uses trusted third-party services to operate efficiently. These services are bound by strict privacy and security policies:
   </p>
+  <ul>
+    <li><strong>Google Firebase:</strong> Used for secure user authentication, database storage (Firestore), and push notifications (Firebase Cloud Messaging).</li>
+    <li><strong>Vertex AI / Gemini (Google):</strong> Used to generate intelligent responses for the AI Coach. Your data is processed securely and is not used to train public machine learning models.</li>
+  </ul>
 
-  <h2>5. Children’s Privacy</h2>
+  <h2>5. Data Retention and Deletion</h2>
   <p>
-    The App is not targeted at children under the age of 13. Since the App does not collect 
-    personal data, we do not knowingly collect information from minors. If you believe a child 
-    has installed the App in violation of local regulations, please contact us.
+    You maintain full control over your data. You can delete your account and all associated personal and health data at any time directly within the FitTrack app settings. Upon account deletion, your authentication records, daily metrics, and meal logs are permanently removed from our active databases.
   </p>
 
-  <h2>6. Changes to This Privacy Policy</h2>
+  <h2>6. Data Storage and Security</h2>
+  <p>
+    We implement industry-standard security measures, including data encryption in transit and at rest, to protect your personal information from unauthorized access or disclosure. However, no method of electronic storage is 100% secure, and we cannot guarantee absolute security.
+  </p>
+
+  <h2>7. Children’s Privacy</h2>
+  <p>
+    FitTrack is not targeted at children under the age of 13. We do not knowingly collect personal information from minors. If you believe a child has provided us with personal information, please contact us so we can immediately delete it.
+  </p>
+
+  <h2>8. Changes to This Privacy Policy</h2>
   <p>
     We may update this Privacy Policy from time to time. Any changes will be reflected within 
-    the App or on an associated website. Your continued use of the App after any such modification 
-    constitutes your acceptance of the revised policy.
+    the App. Your continued use of the App after any such modification constitutes your acceptance of the revised policy.
   </p>
 
-  <h2>7. Contact Us</h2>
+  <h2>9. Contact Us</h2>
   <p>
     If you have any questions, concerns, or feedback regarding this Privacy Policy or the App, 
     please contact us at:
@@ -129,14 +141,14 @@
   </p>
 
   <p style="margin-top: 2rem; font-style: italic; color: #666;">
-    <strong>Disclaimer:</strong> The BMI Calculator is provided for informational 
+    <strong>Disclaimer:</strong> FitTrack is provided for informational 
     and educational purposes only. It should not be considered a substitute for professional 
     medical advice. Always consult a licensed healthcare professional for any health-related concerns.
   </p>
 </main>
 
 <div class="footer">
-  &copy; 2025 Anup Singh/TJD. All rights reserved.
+  &copy; 2026 Anup Singh/TJD. All rights reserved.
 </div>
 
 </body>
